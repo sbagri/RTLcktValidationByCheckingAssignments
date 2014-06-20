@@ -1,3 +1,8 @@
+This is the final project for course ECE 5534 Electronic Design Automation.
+The theoritical details of the project is in file "Report_sbagri.pdf"
+This file lists the details of how to run this code.
+
+
 DEPENDENCIES
 --------------------------
 1) Python 2.7
