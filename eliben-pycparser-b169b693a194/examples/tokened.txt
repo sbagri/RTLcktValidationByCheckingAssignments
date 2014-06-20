@@ -1,0 +1,111 @@
+FileAST: 
+  FuncDef: 
+    Decl: main, [], [], []
+      FuncDecl: 
+        TypeDecl: main, []
+          IdentifierType: ['void']
+    Compound: 
+      If: 
+        BinaryOp: |
+          BinaryOp: |
+            BinaryOp: |
+              BinaryOp: |
+                BinaryOp: |
+                  BinaryOp: |
+                    BinaryOp: |
+                      BinaryOp: ==
+                        Constant: int, 0
+                        ID: v__DOT__process_1_stato
+                      BinaryOp: ==
+                        Constant: int, 3
+                        ID: v__DOT__process_1_stato
+                    BinaryOp: ==
+                      Constant: int, 1
+                      ID: v__DOT__process_1_stato
+                  BinaryOp: ==
+                    Constant: int, 4
+                    ID: v__DOT__process_1_stato
+                BinaryOp: ==
+                  Constant: int, 2
+                  ID: v__DOT__process_1_stato
+              BinaryOp: ==
+                Constant: int, 5
+                ID: v__DOT__process_1_stato
+            BinaryOp: ==
+              Constant: int, 6
+              ID: v__DOT__process_1_stato
+          BinaryOp: ==
+            Constant: int, 7
+            ID: v__DOT__process_1_stato
+        EmptyStatement: 
+      Return: 
+        Constant: int, 0
+
+		
+
+void main()
+{
+  if ((a == 0) && (b == 0))
+    ;
+
+  if (Or((Or((Or((Or((Or((Or((Or((0 == v__DOT__process_1_stato) , (3 == v__DOT__process_1_stato))) , (1 == v__DOT__process_1_stato))) , (4 == v__DOT__process_1_stato))) , (2 == v__DOT__process_1_stato))) , (5 == v__DOT__process_1_stato))) , (6 == v__DOT__process_1_stato))) , (7 == v__DOT__process_1_stato)))
+    ;
+
+  return 0;
+}
+
+This condition works fine in z3 solver
+s.add(1 == (1 & ((v__DOT__process_1_stato) >> 1)))
+
+((IData)(vlTOPp->v__DOT__scan) != (IData)(vlTOPp->v__DOT__max))
+
+k = BitVec('k', 3)
+s = Solver()
+s.add(1 == (1 & ((k) >> 1)))
+s.add(Not(2 == k))
+s.add(Not(3 == k))
+s.add(Not(6 == k))
+print s.check()
+print s.model()
+
+
+
+
+
+This is giving wrong answer of vdot_counter = 4
+
+
+clock = BitVec('clock', 1)
+k = BitVec('k', 4)
+reset = BitVec('reset', 1)
+start = BitVec('start', 1)
+v__DOT__address = BitVec('v__DOT__address', 5)
+v__DOT__count = BitVec('v__DOT__count', 2)
+v__DOT__count2 = BitVec('v__DOT__count2', 6)
+v__DOT__counter = BitVec('v__DOT__counter', 3)
+v__DOT__data_in = BitVec('v__DOT__data_in', 2)
+v__DOT__data_out = BitVec('v__DOT__data_out', 2)
+v__DOT__gamma = BitVec('v__DOT__gamma', 5)
+v__DOT__ind = BitVec('v__DOT__ind', 2)
+v__DOT__max = BitVec('v__DOT__max', 5)
+v__DOT__num = BitVec('v__DOT__num', 2)
+v__DOT__play = BitVec('v__DOT__play', 1)
+v__DOT__s = BitVec('v__DOT__s', 1)
+v__DOT__scan = BitVec('v__DOT__scan', 5)
+v__DOT__sound = BitVec('v__DOT__sound', 3)
+v__DOT__timebase = BitVec('v__DOT__timebase', 6)
+v__DOT__wr = BitVec('v__DOT__wr', 1)
+v__DOT__memory = [ BitVec('v__DOT__memory[%s]' % i, 2) for i in range(32) ]
+
+
+#__Vcoverage[2]
+s = Solver()
+s.add(((v__DOT__counter) > 2) == False)
+s.add( (reset == 0))
+s.add( (0 == v__DOT__sound))
+s.add( (v__DOT__play != 0))
+s.add(Not((v__DOT__counter) == 2))
+s.add(Not((v__DOT__counter) == 0))
+print s.check()
+print s.model()
+

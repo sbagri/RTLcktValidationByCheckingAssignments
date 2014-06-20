@@ -1,0 +1,328 @@
+Coverage No. to test : 0
+Coverage 0 requires vlTOPp->reset to be true
+It involves Signal : ['reset']
+Which is assigned values at {}
+Final list of signals on which coverage 0 depends ['reset']
+
+All constraints on final signals are
+vlTOPp->reset should be true
+Assignments 1 level deep and their coverage no. are {}
+Assignments 2 level deep and their coverage no. are {}
+Satisfiable Coverages are []
+Unsatisfiable Coverages are []
+Looks like 'Input' so can be assigned any value
+
+
+Coverage No. to test : 1
+Coverage 1 requires (1 & (IData)(vlTOPp->v__DOT__stato)) to be false
+It involves Signal : ['v__DOT__stato']
+Which is assigned values at {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+This involves New Signals = ['__Vdly__v__DOT__stato']
+Which is assigned values at {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Final list of signals on which coverage 1 depends ['v__DOT__stato', '__Vdly__v__DOT__stato']
+
+All constraints on final signals are
+(1 & (IData)(vlTOPp->v__DOT__stato)) should be false
+(2 & (IData)(vlTOPp->v__DOT__stato)) should be false
+(4 & (IData)(vlTOPp->v__DOT__stato)) should be false
+Assignments 1 level deep and their coverage no. are {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 2
+Coverage 2 requires (1 == (IData)(vlTOPp->start)) to be true
+It involves Signal : ['start']
+Which is assigned values at {}
+Final list of signals on which coverage 2 depends ['start']
+
+All constraints on final signals are
+(1 == (IData)(vlTOPp->start)) should be true
+Assignments 1 level deep and their coverage no. are {}
+Assignments 2 level deep and their coverage no. are {}
+Satisfiable Coverages are []
+Unsatisfiable Coverages are []
+Looks like 'Input' so can be assigned any value
+
+
+Coverage No. to test : 3
+Coverage 3 requires (1 == (IData)(vlTOPp->start)) to be false
+It involves Signal : ['start']
+Which is assigned values at {}
+Final list of signals on which coverage 3 depends ['start']
+
+All constraints on final signals are
+(1 == (IData)(vlTOPp->start)) should be false
+Assignments 1 level deep and their coverage no. are {}
+Assignments 2 level deep and their coverage no. are {}
+Satisfiable Coverages are []
+Unsatisfiable Coverages are []
+Looks like 'Input' so can be assigned any value
+
+
+Coverage No. to test : 4
+Coverage 4 requires (1 & (IData)(vlTOPp->v__DOT__stato)) to be true
+It involves Signal : ['v__DOT__stato']
+Which is assigned values at {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+This involves New Signals = ['__Vdly__v__DOT__stato']
+Which is assigned values at {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Final list of signals on which coverage 4 depends ['v__DOT__stato', '__Vdly__v__DOT__stato']
+
+All constraints on final signals are
+(1 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(2 & (IData)(vlTOPp->v__DOT__stato)) should be false
+(4 & (IData)(vlTOPp->v__DOT__stato)) should be false
+Assignments 1 level deep and their coverage no. are {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 5
+Coverage 5 requires (1 & (IData)(vlTOPp->v__DOT__stato)) to be false
+It involves Signal : ['v__DOT__stato']
+Which is assigned values at {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+This involves New Signals = ['__Vdly__v__DOT__stato']
+Which is assigned values at {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Final list of signals on which coverage 5 depends ['v__DOT__stato', '__Vdly__v__DOT__stato']
+
+All constraints on final signals are
+(2 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(1 & (IData)(vlTOPp->v__DOT__stato)) should be false
+(4 & (IData)(vlTOPp->v__DOT__stato)) should be false
+Assignments 1 level deep and their coverage no. are {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 6
+Coverage 6 requires (1 & (IData)(vlTOPp->v__DOT__stato)) to be true
+It involves Signal : ['v__DOT__stato']
+Which is assigned values at {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+This involves New Signals = ['__Vdly__v__DOT__stato']
+Which is assigned values at {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Final list of signals on which coverage 6 depends ['v__DOT__stato', '__Vdly__v__DOT__stato']
+
+All constraints on final signals are
+(1 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(2 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(4 & (IData)(vlTOPp->v__DOT__stato)) should be false
+Assignments 1 level deep and their coverage no. are {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 7
+Coverage 7 requires (1 & (IData)(vlTOPp->v__DOT__stato)) to be false
+It involves Signal : ['v__DOT__stato']
+Which is assigned values at {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+This involves New Signals = ['__Vdly__v__DOT__stato']
+Which is assigned values at {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Final list of signals on which coverage 7 depends ['v__DOT__stato', '__Vdly__v__DOT__stato']
+
+All constraints on final signals are
+(4 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(1 & (IData)(vlTOPp->v__DOT__stato)) should be false
+(2 & (IData)(vlTOPp->v__DOT__stato)) should be false
+Assignments 1 level deep and their coverage no. are {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 8
+Coverage 8 requires (1 & (IData)(vlTOPp->v__DOT__stato)) to be true
+It involves Signal : ['v__DOT__stato']
+Which is assigned values at {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+This involves New Signals = ['__Vdly__v__DOT__stato']
+Which is assigned values at {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Final list of signals on which coverage 8 depends ['v__DOT__stato', '__Vdly__v__DOT__stato']
+
+All constraints on final signals are
+(1 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(4 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(2 & (IData)(vlTOPp->v__DOT__stato)) should be false
+Assignments 1 level deep and their coverage no. are {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 9
+Coverage 9 requires (2 == (IData)(vlTOPp->v__DOT__x)) to be true
+It involves Signal : ['v__DOT__x']
+Which is assigned values at {'v__DOT__x = __Vdly__v__DOT__x;': -1}
+This involves New Signals = ['__Vdly__v__DOT__x']
+Which is assigned values at {'__Vdly__v__DOT__x = (0xff & ((v__DOT__x)+ (v__DOT__y)));': 8, '__Vdly__v__DOT__x = v__DOT__x;': -1, '__Vdly__v__DOT__x = (v__DOT__mem)[(0xf & (v__DOT__mar))];': 5, '__Vdly__v__DOT__x = 0;': 0, '__Vdly__v__DOT__x = (0xff & ((v__DOT__x)+ (v__DOT__t)));': 7}
+This involves New Signals = ['v__DOT__y', 'v__DOT__mem', 'v__DOT__mar', 'v__DOT__t']
+Going 3 levels deep hasn't been implemented, Visit later :)
+Final list of signals on which coverage 9 depends ['v__DOT__x', '__Vdly__v__DOT__x', 'v__DOT__y', 'v__DOT__mem', 'v__DOT__mar', 'v__DOT__t']
+
+Error: Probably an array, whose definition for z3 hasn't 
+    				been written
+
+
+
+
+Coverage No. to test : 10
+Coverage 10 requires (2 == (IData)(vlTOPp->v__DOT__x)) to be false
+It involves Signal : ['v__DOT__x']
+Which is assigned values at {'v__DOT__x = __Vdly__v__DOT__x;': -1}
+This involves New Signals = ['__Vdly__v__DOT__x']
+Which is assigned values at {'__Vdly__v__DOT__x = (0xff & ((v__DOT__x)+ (v__DOT__y)));': 8, '__Vdly__v__DOT__x = v__DOT__x;': -1, '__Vdly__v__DOT__x = (v__DOT__mem)[(0xf & (v__DOT__mar))];': 5, '__Vdly__v__DOT__x = 0;': 0, '__Vdly__v__DOT__x = (0xff & ((v__DOT__x)+ (v__DOT__t)));': 7}
+This involves New Signals = ['v__DOT__y', 'v__DOT__mem', 'v__DOT__mar', 'v__DOT__t']
+Going 3 levels deep hasn't been implemented, Visit later :)
+Final list of signals on which coverage 10 depends ['v__DOT__x', '__Vdly__v__DOT__x', 'v__DOT__y', 'v__DOT__mem', 'v__DOT__mar', 'v__DOT__t']
+
+Error: Probably an array, whose definition for z3 hasn't 
+    				been written
+
+
+
+
+Coverage No. to test : 11
+Coverage 11 requires (0xf != (IData)(vlTOPp->v__DOT__mar)) to be true
+It involves Signal : ['v__DOT__mar']
+Which is assigned values at {'v__DOT__mar = __Vdly__v__DOT__mar;': -1}
+This involves New Signals = ['__Vdly__v__DOT__mar']
+Which is assigned values at {'__Vdly__v__DOT__mar = 0;': 2, '__Vdly__v__DOT__mar = (0xff& ((1)+ (v__DOT__mar)));': 10, '__Vdly__v__DOT__mar = v__DOT__mar;': -1, '__Vdly__v__DOT__mar = (0xff & ((1)+ (v__DOT__mar)));': 6}
+Final list of signals on which coverage 11 depends ['v__DOT__mar', '__Vdly__v__DOT__mar']
+
+All constraints on final signals are
+(0xf != (IData)(vlTOPp->v__DOT__mar)) should be true
+Assignments 1 level deep and their coverage no. are {'v__DOT__mar = __Vdly__v__DOT__mar;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__mar = 0;': 2, '__Vdly__v__DOT__mar = (0xff& ((1)+ (v__DOT__mar)));': 10, '__Vdly__v__DOT__mar = v__DOT__mar;': -1, '__Vdly__v__DOT__mar = (0xff & ((1)+ (v__DOT__mar)));': 6}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 12
+Coverage 12 requires (2 == (IData)(vlTOPp->v__DOT__x)) to be true
+It involves Signal : ['v__DOT__x']
+Which is assigned values at {'v__DOT__x = __Vdly__v__DOT__x;': -1}
+This involves New Signals = ['__Vdly__v__DOT__x']
+Which is assigned values at {'__Vdly__v__DOT__x = (0xff & ((v__DOT__x)+ (v__DOT__y)));': 8, '__Vdly__v__DOT__x = v__DOT__x;': -1, '__Vdly__v__DOT__x = (v__DOT__mem)[(0xf & (v__DOT__mar))];': 5, '__Vdly__v__DOT__x = 0;': 0, '__Vdly__v__DOT__x = (0xff & ((v__DOT__x)+ (v__DOT__t)));': 7}
+This involves New Signals = ['v__DOT__y', 'v__DOT__mem', 'v__DOT__mar', 'v__DOT__t']
+Going 3 levels deep hasn't been implemented, Visit later :)
+Final list of signals on which coverage 12 depends ['v__DOT__x', '__Vdly__v__DOT__x', 'v__DOT__y', 'v__DOT__mem', 'v__DOT__mar', 'v__DOT__t']
+
+Error: Probably an array, whose definition for z3 hasn't 
+    				been written
+
+
+
+
+Coverage No. to test : 13
+Coverage 13 requires (2 == (IData)(vlTOPp->v__DOT__x)) to be false
+It involves Signal : ['v__DOT__x']
+Which is assigned values at {'v__DOT__x = __Vdly__v__DOT__x;': -1}
+This involves New Signals = ['__Vdly__v__DOT__x']
+Which is assigned values at {'__Vdly__v__DOT__x = (0xff & ((v__DOT__x)+ (v__DOT__y)));': 8, '__Vdly__v__DOT__x = v__DOT__x;': -1, '__Vdly__v__DOT__x = (v__DOT__mem)[(0xf & (v__DOT__mar))];': 5, '__Vdly__v__DOT__x = 0;': 0, '__Vdly__v__DOT__x = (0xff & ((v__DOT__x)+ (v__DOT__t)));': 7}
+This involves New Signals = ['v__DOT__y', 'v__DOT__mem', 'v__DOT__mar', 'v__DOT__t']
+Going 3 levels deep hasn't been implemented, Visit later :)
+Final list of signals on which coverage 13 depends ['v__DOT__x', '__Vdly__v__DOT__x', 'v__DOT__y', 'v__DOT__mem', 'v__DOT__mar', 'v__DOT__t']
+
+Error: Probably an array, whose definition for z3 hasn't 
+    				been written
+
+
+
+
+Coverage No. to test : 14
+Coverage 14 requires (0 == (IData)(vlTOPp->start)) to be true
+It involves Signal : ['start']
+Which is assigned values at {}
+Final list of signals on which coverage 14 depends ['start']
+
+All constraints on final signals are
+(0 == (IData)(vlTOPp->start)) should be true
+Assignments 1 level deep and their coverage no. are {}
+Assignments 2 level deep and their coverage no. are {}
+Satisfiable Coverages are []
+Unsatisfiable Coverages are []
+Looks like 'Input' so can be assigned any value
+
+
+Coverage No. to test : 15
+Coverage 15 requires (0 == (IData)(vlTOPp->start)) to be false
+It involves Signal : ['start']
+Which is assigned values at {}
+Final list of signals on which coverage 15 depends ['start']
+
+All constraints on final signals are
+(0 == (IData)(vlTOPp->start)) should be false
+Assignments 1 level deep and their coverage no. are {}
+Assignments 2 level deep and their coverage no. are {}
+Satisfiable Coverages are []
+Unsatisfiable Coverages are []
+Looks like 'Input' so can be assigned any value
+
+
+Coverage No. to test : 16
+Coverage 16 requires (0xf != (IData)(vlTOPp->v__DOT__mar)) to be false
+It involves Signal : ['v__DOT__mar']
+Which is assigned values at {'v__DOT__mar = __Vdly__v__DOT__mar;': -1}
+This involves New Signals = ['__Vdly__v__DOT__mar']
+Which is assigned values at {'__Vdly__v__DOT__mar = 0;': 2, '__Vdly__v__DOT__mar = (0xff& ((1)+ (v__DOT__mar)));': 10, '__Vdly__v__DOT__mar = v__DOT__mar;': -1, '__Vdly__v__DOT__mar = (0xff & ((1)+ (v__DOT__mar)));': 6}
+Final list of signals on which coverage 16 depends ['v__DOT__mar', '__Vdly__v__DOT__mar']
+
+All constraints on final signals are
+(0xf != (IData)(vlTOPp->v__DOT__mar)) should be false
+Assignments 1 level deep and their coverage no. are {'v__DOT__mar = __Vdly__v__DOT__mar;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__mar = 0;': 2, '__Vdly__v__DOT__mar = (0xff& ((1)+ (v__DOT__mar)));': 10, '__Vdly__v__DOT__mar = v__DOT__mar;': -1, '__Vdly__v__DOT__mar = (0xff & ((1)+ (v__DOT__mar)));': 6}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 17
+Coverage 17 requires (1 & (IData)(vlTOPp->v__DOT__stato)) to be false
+It involves Signal : ['v__DOT__stato']
+Which is assigned values at {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+This involves New Signals = ['__Vdly__v__DOT__stato']
+Which is assigned values at {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Final list of signals on which coverage 17 depends ['v__DOT__stato', '__Vdly__v__DOT__stato']
+
+All constraints on final signals are
+(2 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(4 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(1 & (IData)(vlTOPp->v__DOT__stato)) should be false
+Assignments 1 level deep and their coverage no. are {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 18
+Coverage 18 requires (1 & (IData)(vlTOPp->v__DOT__stato)) to be true
+It involves Signal : ['v__DOT__stato']
+Which is assigned values at {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+This involves New Signals = ['__Vdly__v__DOT__stato']
+Which is assigned values at {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Final list of signals on which coverage 18 depends ['v__DOT__stato', '__Vdly__v__DOT__stato']
+
+All constraints on final signals are
+(1 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(2 & (IData)(vlTOPp->v__DOT__stato)) should be true
+(4 & (IData)(vlTOPp->v__DOT__stato)) should be true
+Assignments 1 level deep and their coverage no. are {'v__DOT__stato = __Vdly__v__DOT__stato;': -1}
+Assignments 2 level deep and their coverage no. are {'__Vdly__v__DOT__stato = 2;': 2, '__Vdly__v__DOT__stato = 3;': 5, '__Vdly__v__DOT__stato = v__DOT__stato;': -1, '__Vdly__v__DOT__stato = 4;': 6, '__Vdly__v__DOT__stato = 5;': 7, '__Vdly__v__DOT__stato = 6;': 8, '__Vdly__v__DOT__stato = 0;': 0, '__Vdly__v__DOT__stato = 1;': 1}
+Satisfiable Coverages are [-1]
+Unsatisfiable Coverages are [-1]
+
+
+Coverage No. to test : 19
+Coverage 19 requires vlTOPp->reset to be false
+It involves Signal : ['reset']
+Which is assigned values at {}
+Final list of signals on which coverage 19 depends ['reset']
+
+All constraints on final signals are
+vlTOPp->reset should be false
+Assignments 1 level deep and their coverage no. are {}
+Assignments 2 level deep and their coverage no. are {}
+Satisfiable Coverages are []
+Unsatisfiable Coverages are []
+Looks like 'Input' so can be assigned any value
